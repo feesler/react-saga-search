@@ -6,11 +6,8 @@ export default function Skills() {
   const { items, loading, error, search } = useSelector(state => state.skills);
   const dispatch = useDispatch();
 
-console.log('items: ', items);
-
   const handleSearch = evt => {
     const { value } = evt.target;
-    console.log('handleSearch(): value: ',value);
     dispatch(changeSearchField(value));
   };
 
@@ -24,5 +21,5 @@ console.log('items: ', items);
       {hasQuery && loading && <div>searching...</div>}
       {error ? <div>Error occured</div> : <ul>{items.map(o => <li key={o.id}>{o.name}</li>)}</ul>}
     </div>
-  )
+  );
 }

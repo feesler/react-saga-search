@@ -14,7 +14,6 @@ const initialState = {
 };
 
 export default function skillsReducer(state = initialState, action) {
-console.log('skillsReducer: ', action);
   switch (action.type) {
     case SEARCH_SKILLS_REQUEST:
       return {
