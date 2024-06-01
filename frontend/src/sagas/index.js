@@ -4,8 +4,8 @@ import {
   searchSkillsRequest,
   searchSkillsSuccess,
   searchSkillsFailure,
-} from '../actions/actionCreators';
-import { CHANGE_SEARCH_FIELD, SEARCH_SKILLS_REQUEST } from '../actions/actionTypes';
+} from '../actions/actionCreators.js';
+import { CHANGE_SEARCH_FIELD, SEARCH_SKILLS_REQUEST } from '../actions/actionTypes.js';
 
 function filterChangeSearchAction({ type }) {
   return type === CHANGE_SEARCH_FIELD;

@@ -1,7 +1,7 @@
 import { createStore, combineReducers, applyMiddleware, compose, } from 'redux';
 import createSagaMiddleware from 'redux-saga';
-import skillsReducer from '../reducers/skills';
-import saga from '../sagas';
+import skillsReducer from '../reducers/skills.js';
+import saga from '../sagas/index.js';
 
 const reducer = combineReducers({
   skills: skillsReducer,

@@ -4,7 +4,7 @@ import {
   SEARCH_SKILLS_REQUEST,
   SEARCH_SKILLS_FAILURE,
   SEARCH_SKILLS_SUCCESS,
-} from './actionTypes';
+} from './actionTypes.js';
 
 export const searchSkillsRequest = (search) => ({
   type: SEARCH_SKILLS_REQUEST,

@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteBase /netology/13/react-saga-search/api/
+RewriteBase /projects/netology/13/react-saga-search/api/
 
 RewriteRule ^(.*)$ search.php?route=$1 [L,QSA]

@@ -4,7 +4,7 @@ import {
   SEARCH_SKILLS_SUCCESS,
   RESET_SKILLS,
   CHANGE_SEARCH_FIELD,
-} from '../actions/actionTypes';
+} from '../actions/actionTypes.js';
 
 const initialState = {
   items: [],

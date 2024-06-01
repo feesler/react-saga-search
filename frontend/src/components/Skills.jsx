@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { changeSearchField } from '../actions/actionCreators';
+import { changeSearchField } from '../actions/actionCreators.js';
 
 export default function Skills() {
   const { items, loading, error, search } = useSelector(state => state.skills);

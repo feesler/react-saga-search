@@ -1,4 +1,4 @@
-import Skills from './components/Skills';
+import Skills from './components/Skills.jsx';
 import './App.css';
 
 function App() {
